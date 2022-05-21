@@ -1,0 +1,16 @@
+To run this Project
+===================
+#npm install Problem
+# ! //==> npm audit fix --force
+
+# Est Lint error
+# ! //==>  npm install eslint@4.x babel-esl
+
+# FAVICON CONVERTER WEBSITE
+# ! //=> https://favicon.io/favicon-converter/
+
+//=> npm i react-countup
+
+//=> firebase init
+//=> npm run build
+//=> firebase deploy
