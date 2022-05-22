@@ -274,9 +274,6 @@ label {
   .logo{
   display :none;
   }
-  .mobile-margin{
-    margin-bottom:2em ;
-  }
 
 }
 @media(min-width:768px){
@@ -284,11 +281,10 @@ label {
     width: 80%;
     margin: 0 auto;
   }
-  .news-latter, .text-p{
+  .news-latter{
     width: 50%;
     margin:0 auto
   }
-  
 }
 
 .slide-img{

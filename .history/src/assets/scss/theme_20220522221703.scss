@@ -274,21 +274,12 @@ label {
   .logo{
   display :none;
   }
-  .mobile-margin{
-    margin-bottom:2em ;
-  }
-
 }
 @media(min-width:768px){
   .banner{
     width: 80%;
     margin: 0 auto;
   }
-  .news-latter, .text-p{
-    width: 50%;
-    margin:0 auto
-  }
-  
 }
 
 .slide-img{
@@ -317,9 +308,6 @@ label {
 .hover-clr{
   background: #05386b;
   color:white;
-}
-.clr-blue{
-  color:#05386b
 }
 .hover-clr:hover{
   background: #ffffff;

@@ -274,21 +274,16 @@ label {
   .logo{
   display :none;
   }
-  .mobile-margin{
-    margin-bottom:2em ;
+  .news-latter{
+    width: 50%;
+    margin:0 auto
   }
-
 }
 @media(min-width:768px){
   .banner{
     width: 80%;
     margin: 0 auto;
   }
-  .news-latter, .text-p{
-    width: 50%;
-    margin:0 auto
-  }
-  
 }
 
 .slide-img{

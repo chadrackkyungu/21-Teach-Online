@@ -274,21 +274,12 @@ label {
   .logo{
   display :none;
   }
-  .mobile-margin{
-    margin-bottom:2em ;
-  }
-
 }
 @media(min-width:768px){
   .banner{
     width: 80%;
     margin: 0 auto;
   }
-  .news-latter, .text-p{
-    width: 50%;
-    margin:0 auto
-  }
-  
 }
 
 .slide-img{
@@ -314,24 +305,18 @@ label {
   color:#5CDB95;
   font-weight: bold;
 }
-.hover-clr{
+.hover-clr:hover{
   background: #05386b;
   color:white;
-}
-.clr-blue{
-  color:#05386b
-}
-.hover-clr:hover{
-  background: #ffffff;
-  color:#05386b;
   transition: all 0.1s ease-in-out;
   cursor: pointer;
 }
 
 .card_header{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #05386b
 }
-
-.submit{
-  background-color: #5CDB95
+.card_header:hover{
+  color:#5CDB95;
+  font-weight: bold;
 }

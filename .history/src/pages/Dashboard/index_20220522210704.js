@@ -2,7 +2,6 @@ import React,{useState} from "react"
 import MetaTags from 'react-meta-tags';
 import { Col, Container, Row, Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from "reactstrap"
 import Cards from "./Cards";
-import Newslatter from "./Newslatter";
 import SlideBanner from './Slide-banner';
 
 const Dashboard = () => {
@@ -23,9 +22,7 @@ const Dashboard = () => {
           </div>
 
             <Cards />
-
-            <Newslatter />
-
+            
         </Container>
       </div>
     </React.Fragment>
