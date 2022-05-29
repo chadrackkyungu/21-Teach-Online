@@ -1,20 +1,31 @@
-import React,{useState} from "react"
+import React,{useState, useEffect} from "react"
 import MetaTags from 'react-meta-tags';
 import { Col, Container, Row, Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from "reactstrap"
 import Cards from "./Cards";
 import Newslatter from "./Newslatter";
 import SlideBanner from './Slide-banner';
 
+import {perf, analytics} from '../../Database/init-firebase'
+import { logEvent } from "firebase/analytics";
+
 const Dashboard = () => {
   const [menu, setMenu] = useState(false)
   const toggle = () => {
     setMenu(!menu)
   }
+
+  useEffect(()=>{
+    // analytics.logEvent('Home_page_visited')
+    logEvent(analytics, 'Home Page Visited', { name: 'lever_puzzle'});
+  })
+
+
+
   return (
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Teaching online</title>
+          <title>Evening Lessons</title>
         </MetaTags>
         <Container fluid>
 
@@ -25,6 +36,9 @@ const Dashboard = () => {
             <Cards />
 
             <Newslatter />
+
+    { console.log("Performance app",perf) }
+    { console.log("analytics",analytics) }
 
         </Container>
       </div>
